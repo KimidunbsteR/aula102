@@ -1,0 +1,59 @@
+body {
+    text-decoration: none;
+    margin: 0%;
+}
+nav {
+    background-color: #e98251;
+    height: 60px;
+    display:flex;
+    justify-content: space-around; 
+    font-family: 'VT323', monospace;
+}
+nav a {
+    color: #17386d;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'VT323', monospace;
+}
+header {
+    background-image: url("./images/just2-kage.jpg");
+    background-size: cover;
+    height: 720px;
+    justify-content: center;
+}
+section {
+    background-color: #bb9646;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+div {
+    width: 40%;
+    align-items: center;
+}
+div ul {
+    list-style-image: url(./images/kunai4.png);
+}
+ul li:nth-child(odd) {
+    color: white;
+}
+/* p, h2 {
+   color: lawngreen;
+} */
+input::placeholder {
+    font-family: 'VT323', monospace;
+}
+input:focus {
+    background-color: #e98251;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
